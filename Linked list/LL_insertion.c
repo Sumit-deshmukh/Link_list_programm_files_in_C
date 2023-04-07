@@ -79,10 +79,10 @@ int main(){
     
     printf("before insertion\n");
     linkedListTraversal(head);
-    // head = insertAtFirst(head,3);
-    // head = insertAtIndex(head,78,2);
+     head = insertAtFirst(head,3);
+     head = insertAtIndex(head,78,2);
     printf("After insertion\n");
-    // head = insertionAtEnd(head,67);
+     head = insertionAtEnd(head,67);
     head = insertionAfterNode(head, second,2);
     linkedListTraversal(head);
     
